@@ -6,32 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ActivityRegistroUsuarios">
 
-    <Spinner
-        android:id="@+id/carreras"
-        android:layout_width="201dp"
-        android:layout_height="41dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.414"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="98dp"
-        android:layout_height="33dp"
-        android:layout_marginBottom="144dp"
-        android:text="Carrera:"
-        android:textColor="#74B12C"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.281"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTelefono"
-        app:layout_constraintVertical_bias="0.345" />
-
     <TextView
         android:id="@+id/textView28"
         android:layout_width="177dp"
@@ -50,16 +24,15 @@
         android:id="@+id/btnRegistrar3"
         android:layout_width="180dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="32dp"
         android:backgroundTint="#FFEB3B"
         android:text="REGISTRARSE"
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPass"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
 
     <TextView
         android:id="@+id/textView33"
@@ -89,55 +62,10 @@
         app:layout_constraintTop_toBottomOf="@+id/btnRegistrar"
         app:layout_constraintVertical_bias="0.641" />
 
-    <EditText
-        android:id="@+id/txtNombre3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="572dp"
-        android:ems="10"
-        android:hint="Ingrese su nombre"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.447"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="98dp"
-        android:layout_height="33dp"
-        android:text="Nombre:"
-        android:textColor="#74B12C"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.287"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
-
-    <EditText
-        android:id="@+id/txtcuenta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="380dp"
-        android:ems="10"
-        android:hint="Numero de Cuenta"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        app:layout_constraintVertical_bias="0.0" />
-
     <TextView
         android:id="@+id/textView22"
         android:layout_width="159dp"
         android:layout_height="33dp"
-        android:layout_marginBottom="428dp"
         android:text="Numero de Cuenta:"
         android:textColor="#74B12C"
         android:textSize="16sp"
@@ -145,44 +73,69 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.345"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTelefono"
-        app:layout_constraintVertical_bias="0.345" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
 
     <EditText
-        android:id="@+id/txtpassword"
+        android:id="@+id/txtcuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="192dp"
         android:ems="10"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
+        android:hint="Numero de Cuenta"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView24"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="98dp"
+        android:layout_height="33dp"
+        android:text="Correo:"
+        android:textColor="#74B12C"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="98dp"
         android:layout_height="33dp"
-        android:layout_marginBottom="240dp"
         android:text="Contaseña:"
         android:textColor="#74B12C"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintHorizontal_bias="0.277"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTelefono"
-        app:layout_constraintVertical_bias="0.345" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="98dp"
+        android:layout_height="33dp"
+        android:text="Carrera:"
+        android:textColor="#74B12C"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
 
     <EditText
         android:id="@+id/txtEmail3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="284dp"
         android:ems="10"
         android:hint="ejemplo@gmail.com"
         android:inputType="textPersonName"
@@ -190,52 +143,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352" />
 
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="98dp"
-        android:layout_height="33dp"
-        android:layout_marginBottom="332dp"
-        android:text="Correo:"
-        android:textColor="#74B12C"
-        android:textSize="16sp"
+    <Spinner
+        android:id="@+id/carreras"
+        android:layout_width="201dp"
+        android:layout_height="41dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTelefono"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
 
     <EditText
-        android:id="@+id/txtApellido3"
+        android:id="@+id/txtpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="476dp"
         android:ems="10"
-        android:hint="Ingrese su apellido"
-        android:inputType="textPersonName"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.447"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="98dp"
-        android:layout_height="33dp"
-        android:layout_marginBottom="524dp"
-        android:text="Apellido:"
-        android:textColor="#74B12C"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.281"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtNombre"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

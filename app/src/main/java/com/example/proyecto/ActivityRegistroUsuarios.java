@@ -24,8 +24,7 @@ public class ActivityRegistroUsuarios extends AppCompatActivity {
 
 
         btnregistrar3 = (Button) findViewById(R.id.btnRegistrar3);
-        txtnombre = (TextView) findViewById(R.id.txtNombre3);
-        txtapellido = (TextView) findViewById(R.id.txtApellido3);
+
         txtcuenta = (TextView) findViewById(R.id.txtcuenta);
         txtemail = (TextView) findViewById(R.id.txtEmail3);
         txtpassword = (TextView) findViewById(R.id.txtpassword);
