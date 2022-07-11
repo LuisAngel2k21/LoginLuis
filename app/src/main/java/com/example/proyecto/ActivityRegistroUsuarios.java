@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,7 +24,7 @@ public class ActivityRegistroUsuarios extends AppCompatActivity {
 
         btnregistrar3 = (Button) findViewById(R.id.btnRegistrar3);
 
-        txtcuenta = (TextView) findViewById(R.id.txtcuenta);
+        txtcuenta = (TextView) findViewById(R.id.txtnomcuenta);
         txtemail = (TextView) findViewById(R.id.txtEmail3);
         txtpassword = (TextView) findViewById(R.id.txtpassword);
         listaCarreras = (Spinner) findViewById(R.id.carreras);
